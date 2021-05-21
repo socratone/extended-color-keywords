@@ -23,7 +23,7 @@ body {
 }
 
 .color-cell:hover {
-  border: 2px solid black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .tooltip {
@@ -35,4 +35,5 @@ body {
   top: 38px;
   padding: 3px 6px;
   z-index: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
