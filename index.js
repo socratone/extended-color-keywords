@@ -1,11 +1,16 @@
-const colorTable = document.getElementById('color-table');
-colors.forEach((color) => {
-  colorTable.insertAdjacentHTML('beforeend', `<div class="color-cell">${color}</div>`)
+const greyColorTable = document.getElementById('grey-color-table')
+greyColors.forEach((color) => {
+  greyColorTable.insertAdjacentHTML('beforeend', `<div class="color-cell">${color}</div>`)
 })
 
 const redColorTable = document.getElementById('red-color-table')
 redColors.forEach((color) => {
   redColorTable.insertAdjacentHTML('beforeend', `<div class="color-cell">${color}</div>`)
+})
+
+const blueColorTable = document.getElementById('blue-color-table')
+blueColors.forEach((color) => {
+  blueColorTable.insertAdjacentHTML('beforeend', `<div class="color-cell">${color}</div>`)
 })
 
 const tables = document.querySelectorAll('.table');

@@ -1,7 +1,6 @@
 const redColors = [
   'snow',
   'ghostwhite',
-  'whitesmoke',
   'ivory',
   'seashell',
   'linen',
@@ -45,6 +44,8 @@ const redColors = [
   'indianred',
   'magenta',
   'darksalmon',
+  'darkgoldenrod',
+  'darkkhaki',
   'mediumorchid',
   'mediumpurple',
   'orange',
